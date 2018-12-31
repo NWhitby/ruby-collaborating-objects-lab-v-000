@@ -15,7 +15,7 @@ class MP3Importer
     file = files.collect do |filename|
       filename.split(" - ")
     Song.new_by_filename(filename)
-    end
   end
+end
 
 end
